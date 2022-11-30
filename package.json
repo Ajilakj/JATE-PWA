@@ -6,9 +6,9 @@
   "scripts": {
     "start:dev": "",
     "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
+    "server": "cd server && nodemon server.js",
+    "build": "cd client && npm run build",
+    "install": "cd client && npm i && cd ../server npm i",
     "client": ""
   },
   "keywords": [],
