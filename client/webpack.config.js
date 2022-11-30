@@ -22,11 +22,10 @@ module.exports = () => {
         template: './index.html',
         title: 'JATE'
       }),
-      // new InjectManifest({
-        // exclude: [/.../, '...'],
-        // maximumFileSizeToCacheInBytes: ,
-        // swSrc: '...',
-      // }),
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'service-worker.js',
+      }), 
       new WebpackPwaManifest({
         filename: "manifest.json",
         name: 'My Progressive Web App JATE',
