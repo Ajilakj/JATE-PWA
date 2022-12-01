@@ -4,8 +4,8 @@
 [To visit my Progressive Web App text editor](https://frozen-scrubland-82058.herokuapp.com/)
 
 ## Description
-This is aProgressive Web App text editor.
-  - You can install this app and use it without internet connection
+This is a Progressive Web App text editor.
+  - You can install this app and use it without internet connection.
   
 
 ## Installation
